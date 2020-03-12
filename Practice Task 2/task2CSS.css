@@ -1,0 +1,847 @@
+body {
+    overflow-x: hidden;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.text-space {
+    letter-spacing: 1px;
+}
+
+.font-big {
+    font-size: 4rem;
+}
+
+.font-medium {
+    font-size: 1.3rem;
+}
+
+.btn-outline-light {
+    border-radius: 50px;
+    padding: 20px 25px 20px 25px;
+}
+
+.btn {
+    font-size: 0.8rem;
+}
+
+.image-icon-style {
+    border: 1px solid white;
+    padding: 35px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.red {
+    color: red;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.light-grey {
+    color: #696969;
+}
+
+.light {
+    background-color: #eeeeee;
+}
+
+.dark {
+    background-color: #dddddd;
+}
+
+
+/*-----------------------------------section1 banner-----------------------------------------------------------*/
+
+.banner-section .col-lg-8 {
+    background-image: url(img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.banner-section .col-lg-4 {
+    background-color: #f4bc51;
+}
+
+.icons>span>i {
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #f4bc51;
+    background-color: white;
+    border-radius: 50%;
+    padding: 13px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    padding: 16px;
+    color: white;
+}
+
+.heading-section {
+    margin-left: 10rem;
+}
+
+.heading-break {
+    border: 2px solid #f4bc51;
+    border-radius: 2px;
+    width: 12%;
+    margin-left: 0;
+}
+
+.heading-text {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.right-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.lorem-text {
+    border-top: 8px solid white;
+    font-style: italic;
+}
+
+
+/*-------------------------------------section2 best-offer-section-------------------------------------------------------------*/
+
+.best-offer-section .col-lg-4 {
+    background-image: url(img/best-offer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.best-offer-section .col-lg-8 {
+    background-color: #eee;
+    padding-left: 4rem;
+}
+
+.best-offer-image {
+    height: 75%;
+}
+
+.best-offer-button {
+    background-color: #b94e5d;
+}
+
+.best-offer-button:hover {
+    background-color: #eee;
+    color: #b94e5d;
+    border-color: #b94e5d;
+}
+
+.avalon-text {
+    color: #b94e5d;
+}
+
+.avalon-light-text {
+    color: #a3a4a5;
+    font-style: italic;
+}
+
+
+/* ---------------------------------------------- Section3 Tabs ------------------------------------------------------------- */
+
+.section3 {
+    background-image: url(img/events-bg.png);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.events-section {
+    padding: 100px;
+}
+
+.tab-content {
+    width: 1200px;
+}
+
+.tab-buttons .col-2 {
+    background: white;
+    margin: 1px;
+    color: black;
+    padding: 18px;
+    text-align: center;
+}
+
+.tab-buttons .col-2>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.date-box {
+    padding: 10px;
+}
+
+.events-listItem .col-2 {
+    color: white;
+    background-color: #f4bc51;
+    background-clip: content-box;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 6px;
+}
+
+.events-listItem {
+    border-bottom: 4px solid white;
+    padding: 5px;
+}
+
+.events-listItem .col-5>p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.events-listItem .col-3 {
+    text-align: end;
+}
+
+.event-type-color {
+    color: #b94e5d;
+    font-size: small;
+}
+
+.interest-button {
+    padding: 15px 20px 15px 20px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    background-color: white;
+    margin: 2px;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #e5b150;
+    font-weight: bolder;
+    background-color: #fff;
+    border-color: none;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+/* ------------------------------------------ Section4 Testimonial ---------------------------------------------------------------------- */
+
+.testimonial-section .col-lg-4 {
+    background-image: url(img/testimonial-left-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.carousel {
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(img/testimonial-left-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel {
+    padding: 200px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    border-radius: 100%;
+    background-color: #b94e5d;
+}
+
+.carousel-indicators {
+    padding-bottom: 100px;
+}
+
+
+/* ------------------------------------------------------- Section5 Flip Cards ------------------------------------------------- */
+
+.section5 {
+    background-image: url(img/services-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flip-card {
+    height: 400px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card1-inner,
+.flip-card2-inner,
+.flip-card3-inner,
+.flip-card4-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card1-inner,
+.flip-card:hover .flip-card2-inner,
+.flip-card:hover .flip-card3-inner,
+.flip-card:hover .flip-card4-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card1-front,
+.flip-card1-back {
+    background-color: #e5b150;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card2-front,
+.flip-card2-back {
+    background-color: #e4974d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card3-front,
+.flip-card3-back {
+    background-color: #ae505e;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card4-front,
+.flip-card4-back {
+    background-color: #da665a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+
+/* Style the back side */
+
+.flip-card1-back,
+.flip-card2-back,
+.flip-card3-back,
+.flip-card4-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* -------------------------------------------------------Section6 Contact------------------------------------------------------------- */
+
+.contact-section .col-lg-8 {
+    background-image: url(img/contact-bg.png);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-section .col-lg-4 {
+    padding-left: 0;
+}
+
+.contact-form .row {
+    margin-left: 0;
+}
+
+.input-section .col-md-4 {
+    background: transparent;
+    font-size: 15px;
+    padding-left: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 50px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    font-size: 15px;
+}
+
+.form-button {
+    background-color: #f3a559;
+    border-color: #f3a559;
+}
+
+.inner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.map-section {
+    position: absolute;
+    background-color: #e4974d;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.9;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form {
+    padding: 110px;
+}
+
+
+/* -----------------------------------------Footer ------------------------------------------------------------------------- */
+
+footer {
+    padding: 30px;
+    background-color: #bfd8d2;
+    font-size: 0.8rem;
+}
+
+
+/* ------------------------------------------------Responsive Design --------------------------------------------------------- */
+
+@media screen and (max-width:1199px) {
+    /*---section1-- */
+    .heading-section {
+        margin-left: 5rem;
+    }
+    .font-big {
+        font-size: 3rem;
+    }
+    .heading-text {
+        font-size: 4rem;
+    }
+    .avalon-logo {
+        height: 100px;
+        width: 100px;
+    }
+    .right-content {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .icons>span>i {
+        font-size: 1.2rem;
+        margin: 3px;
+        padding: 13px;
+        height: 45px;
+        width: 45px;
+    }
+    .heading-break {
+        width: 10%;
+    }
+    /* --section2- */
+    .best-offer-section .col-lg-8 {
+        padding-left: 2rem;
+    }
+    .best-offer-image {
+        height: 60%;
+    }
+    .my-5 {
+        margin-top: 2rem!important;
+        margin-bottom: 2rem!important;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    .btn {
+        padding: 15px;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+    /* -section3--- */
+    .nav-tabs .nav-item {
+        width: 180px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .events-section {
+        padding: 60px;
+    }
+    .tab-content {
+        width: 991px;
+    }
+    .events-listItem .col-2 {
+        padding: 5px;
+    }
+    .events-listItem .col-5>p {
+        font-size: 15px;
+    }
+    .interest-button {
+        padding: 15px;
+        font-size: small;
+    }
+    .tab-content {
+        margin-top: 2rem!important;
+    }
+    /* --section4-- */
+    .carousel {
+        padding: 100px;
+    }
+    .carousel-indicators {
+        padding-bottom: 20px;
+    }
+    /* --section6-- */
+    .contact-form {
+        padding: 95px;
+        padding-top: 90px;
+    }
+    .font-medium {
+        font-size: 1rem;
+    }
+    .form-button {
+        padding: 15px 20px 15px 20px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /* -section1--- */
+    .banner-section .col-lg-8 {
+        padding: 130px;
+        background-clip: unset;
+    }
+    .right-content {
+        padding-right: 0px;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .date-box {
+        padding: 6px;
+    }
+    .events-listItem .col-1 {
+        padding: 1px;
+    }
+    .icons>span>i {
+        font-size: 1.5rem;
+        margin: 5px;
+        padding: 13px;
+        height: 50px;
+        width: 50px;
+    }
+    .avalon-logo {
+        height: 120px;
+        width: 120px;
+    }
+    .font-big {
+        font-size: 4rem;
+    }
+    .heading-text {
+        font-size: 5rem;
+    }
+    .right-content {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* ---section2-- */
+    .best-offer-section .col-lg-4 {
+        padding: 25px;
+        background-clip: unset;
+    }
+    .best-offer-section .col-lg-8 {
+        padding-left: 5rem;
+    }
+    .best-offer-image {
+        height: 75%;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .mt-3,
+    .my-3 {
+        margin-top: 0rem!important;
+    }
+    /* --section3-- */
+    .nav-tabs .nav-item {
+        width: 140px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .events-listItem .col-5>p {
+        font-size: 0.8rem;
+    }
+    .interest-button {
+        padding: 10px;
+    }
+    .tab-content {
+        width: 800px;
+    }
+    .tab-content {
+        margin-top: 1.5rem!important;
+    }
+    /* .date-box {
+        padding: 5px;
+    } */
+    /* .events-listItem {
+        height: 75px;
+    } */
+    .interest-button .bold {
+        font-size: 12px;
+    }
+    /* --section5-- */
+    .flip-card {
+        height: 300px;
+    }
+    /* --section6-- */
+    .contact-section .col-lg-8 {
+        background-clip: unset;
+    }
+    .contact-section .col-lg-4 {
+        padding-left: 0;
+        height: 330px;
+    }
+    .contact-section .mt-4,
+    .my-4 {
+        margin-top: 1rem!important;
+    }
+    textarea {
+        margin-bottom: 25px;
+    }
+    /* ----footer--- */
+    footer {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    /* -section1-- */
+    .banner-section .col-lg-8 {
+        padding: 90px;
+    }
+    .heading-text {
+        font-size: 4.5rem;
+    }
+    .avalon-logo {
+        height: 100px;
+        width: 100px;
+    }
+    .font-big {
+        font-size: 3.5rem;
+    }
+    /* ----section2---- */
+    .best-offer-section .col-lg-8 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .best-offer-image {
+        height: 70%;
+        width: 60%;
+    }
+    .best-offer-right .order-2 {
+        margin-top: 0px!important;
+    }
+    /* --section3---- */
+    .nav-tabs .nav-item {
+        width: 200px;
+    }
+    .tab-content {
+        width: 600px;
+    }
+    .tab-content {
+        margin-top: 1rem!important;
+    }
+    /* .date-box {
+        padding: 5px;
+    } */
+    .interest-button .bold {
+        font-size: 12px;
+    }
+    .interest-button {
+        margin-bottom: 10px;
+    }
+    /* .date-box {
+        width: 50px;
+        padding: 5px;
+        background: #f4bc51;
+    } */
+    /* .events-listItem {
+        height: 95px;
+    } */
+    /* -section6-- */
+    .input-section .col-md-4 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    /* --section1-- */
+    .banner-section .col-lg-8 {
+        padding: 50px;
+    }
+    .font-big {
+        font-size: 3rem;
+    }
+    .heading-text {
+        font-size: 4rem;
+    }
+    .avalon-logo {
+        height: 100px;
+        width: 100px;
+    }
+    .right-content {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .icons>span>i {
+        font-size: 1.2rem;
+        margin: 3px;
+        padding: 13px;
+        height: 45px;
+        width: 45px;
+    }
+    .heading-break {
+        width: 10%;
+    }
+    .right-content {
+        padding: 0;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    /* --section3--*/
+    .nav-tabs .nav-item {
+        width: 223px;
+    }
+    /* .events-listItem {
+        max-height: 100px;
+        padding: 15px;
+    } */
+    .tab-content {
+        max-width: 500px;
+    }
+    /* section4 */
+    .carousel {
+        padding: 90px;
+    }
+    /* --section6--*/
+    .contact-form {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    /* --section1-- */
+    .heading-section {
+        margin-left: 3rem;
+    }
+    .heading-text {
+        font-size: 3.5rem;
+    }
+    /* --section3-- */
+    .nav-tabs {
+        justify-content: center;
+    }
+    .tab-content {
+        max-width: 375px;
+    }
+    .interest-button {
+        margin-top: 5px;
+    }
+    /* section4 */
+    .carousel {
+        padding: 70px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    /* section1 */
+    .heading-section {
+        margin-left: 1rem;
+    }
+    .icons>span>i {
+        font-size: 1rem;
+        margin: 3px;
+        padding: 12px;
+        height: 40px;
+        width: 40px;
+    }
+    /* section3 */
+    .tab-content {
+        max-width: 270px;
+    }
+    .events-listItem .col-2 {
+        padding: 0;
+    }
+    /* section4 */
+    .carousel {
+        height: 540px;
+        padding: 10px;
+    }
+    /* section6 */
+    .contact-form {
+        padding: 40px;
+    }
+}
