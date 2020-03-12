@@ -1,0 +1,197 @@
+body,
+html,
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.h5,
+h5 {
+    font-size: 0.8rem;
+    letter-spacing: 7px;
+}
+
+.banner-section {
+    background-image: url(James_banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.headline {
+    color: white;
+    display: block;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    letter-spacing: 4px;
+}
+
+.logo {
+    width: 55%;
+    margin-left: 10rem;
+}
+
+.mainContent {
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.btnText {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.fab {
+    font-size: 2rem;
+    color: red;
+    margin: 10px;
+}
+
+.discount {
+    color: red;
+    font-weight: 1000;
+    font-size: 4rem;
+}
+
+.send-button {
+    background-color: red;
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+}
+
+.input-group {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child) {
+    border-radius: 0%;
+    background-color: #faf9d1;
+}
+
+.input-group>.input-group-append>.btn {
+    border-radius: 0%;
+}
+
+.hoverSetting {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: red;
+}
+
+.col-md-4:hover .hoverSetting {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.copyright>p {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.copyright>p>span {
+    color: red;
+}
+
+.inner-wrapper {
+    position: relative;
+}
+
+@media screen and (max-width: 1199px) {
+    .icons {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .main {
+        padding-bottom: 110px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .logo {
+        margin-left: 5rem;
+    }
+    .discount {
+        font-size: 3rem;
+    }
+    .input-group>.custom-select:not(:last-child),
+    .input-group>.form-control:not(:last-child) {
+        background-color: #faf9d1;
+        font-size: medium;
+    }
+    .input-group>.input-group-append>.btn {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .input-group {
+        width: 80%;
+    }
+    .input-group>.custom-select:not(:last-child),
+    .input-group>.form-control:not(:last-child) {
+        background-color: #faf9d1;
+        font-size: small;
+    }
+    .input-group>.input-group-append>.btn {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        margin-left: 3rem;
+    }
+    .discount {
+        font-size: 2rem;
+    }
+    .mainContent {
+        letter-spacing: 1px;
+    }
+    .fab {
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-wrapper {
+        height: 77vh;
+    }
+}
